@@ -1,0 +1,9 @@
+body {
+    --primary-color: #0085FF;
+    --secondary-color: #E7E8EA;
+    --grey: #cecece;
+
+    --content-bg: #F5F8FD;
+
+    --bg-gradient: linear-gradient(110.0deg, #5fc2ff, #28099b);
+}

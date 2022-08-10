@@ -1,0 +1,41 @@
+.button {
+    width: 100%;
+    border: none;
+    padding: 15px 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 18px;
+
+    transition: all .125s ease-in-out;
+}
+
+.button:active {
+    filter: brightness(90%);
+}
+
+.primary.button {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.secondary.button {
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.input-button-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.input-button-group .MuiFormControl-root {
+    flex: 1;
+}
+
+.input-button-group button {
+    border-radius: 0 8px 8px 0;
+    width: auto;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}

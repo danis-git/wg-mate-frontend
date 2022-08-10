@@ -1,0 +1,10 @@
+.header .link {
+    color: white;
+    font-size: 16px;
+}
+
+.header .inOneLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

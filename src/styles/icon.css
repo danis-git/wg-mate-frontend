@@ -1,0 +1,13 @@
+.icon {
+    height: 16px;
+    width: 16px;
+}
+
+.settings .icon {
+    height: 25px;
+    width: 25px;
+}
+
+.icon.flipped {
+    transform: rotate(180deg);
+}

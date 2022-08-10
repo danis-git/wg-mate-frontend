@@ -1,0 +1,38 @@
+.login.page .header {
+    font-size: 26px;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.login.page .content {
+    padding: 40px;
+}
+
+.login.page .content h2 {
+    margin-bottom: 12px;
+}
+
+
+.login.form .error .errorIcon {
+    margin-right: 5px;
+}
+
+.separator {
+    display: flex;
+    color: var(--grey);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px 0;
+    align-items: center;
+}
+
+.separator .line {
+    flex: 1;
+    border: solid 1px var(--grey);
+    height: 0;
+}
+
+.separator label {
+    margin: 0 5px;
+    line-height: 1;
+}
